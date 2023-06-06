@@ -1,0 +1,36 @@
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/skvoz/lumen-console-test"
+        }
+    ],
+    "require": {
+        "laravel/lumen": "^8.1",
+        "doctrine/dbal": "^3.6",
+        "irazasyed/larasupport": "^1.7",
+        "illuminate/redis": "^8.83",
+        "monsterlane/lumen-console-test": "dev-dev-master"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.5",
+        "phpunit/phpunit": "^9.6",
+        "fakerphp/faker": "^1.21",
+        "friendsofphp/php-cs-fixer": "^3.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "Services\\": "services/",
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/",
+            "Services\\": "services/",
+            "App\\": "app/"
+        }
+    }
+}

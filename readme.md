@@ -9,9 +9,9 @@ Install
 ===
 - rename www/example.env to .env
 - rename sample.env to .env
-- default lumen setup(generate app_key, permisson to folders, etc.)
 - docker-compose up -d
 - docker-compose exec webserver
+- default lumen setup(generate app_key, permisson to folders, etc., composer install)
 - supervisord
 - php artisan migrate
 

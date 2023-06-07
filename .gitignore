@@ -12,6 +12,5 @@
 /www/.php-cs*
 /www/.env
 /www/vendor/**  
-/www/tmp/**
 /www/composer.lock
 /.php-cs*

@@ -7,14 +7,15 @@ Some approach, and best practice example.
 
 Install 
 ===
-- www/example.env to .env 
+- www/example.env to www/.env 
 - rename sample.env to .env (set php74)
 - docker-compose up -d
 - docker-compose exec webserver
 - default lumen setup(generate app_key, permisson to folders, etc., composer install)
 - chmod -R 777 tmp
-- supervisord
+- chmod -R 777 storage
 - php artisan migrate
+- supervisord
 
 URL 
 ===
